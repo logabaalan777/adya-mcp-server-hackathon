@@ -1,0 +1,23 @@
+[project]
+name = "mcp-joomla"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "black>=25.1.0",
+    "bleach>=6.2.0",
+    "httpx>=0.28.1",
+    "markdown>=3.8.2",
+    "mcp>=1.0.0",
+]
+
+[build-system]
+requires = [ "hatchling",]
+build-backend = "hatchling.build"
+
+[project.scripts]
+mcp-joomla = "mcp_joomla.server:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/mcp_joomla"]

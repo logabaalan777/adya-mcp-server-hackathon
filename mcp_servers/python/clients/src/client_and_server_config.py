@@ -1,0 +1,62 @@
+ClientsConfig =[
+    "MCP_CLIENT_AZURE_AI",
+    "MCP_CLIENT_OPENAI",
+	"MCP_CLIENT_GEMINI",
+	"MCP_CLIENT_OPENSTREETMAP",
+	"MCP_CLIENT_JOOMLA",
+	"MCP_CLIENT_LOOKER",
+	"MCP_CLIENT_ALACRITTY"
+]
+
+ServersConfig = [
+	{
+		"server_name": "MCP-OPENSTREETMAP",
+		"command":"uv",
+		"args": [
+			"--directory",
+			"../servers/MCP-OPENSTREETMAP/mcp-openstreetmap",
+			"run",
+			"mcp-openstreetmap"
+		]
+	},
+	{
+		"server_name": "MCP-CLAUDE",
+		"command":"uv",
+		"args": [
+			"--directory",
+			"../servers/MCP-CLAUDE/mcp-claude",
+			"run",
+			"mcp-claude"
+		]
+	},
+	{
+		"server_name": "MCP-JOOMLA",
+		"command":"uv",
+		"args": [
+			"--directory",
+			"../servers/MCP-JOOMLA/mcp-joomla",
+			"run",
+			"mcp-joomla"
+		]
+	},
+	{
+		"server_name": "MCP-LOOKER",
+		"command":"uv",
+		"args": [
+			"--directory",
+			"../servers/MCP-LOOKER/mcp-looker",
+			"run",
+			"mcp-looker"
+		]
+	},
+	{
+		"server_name": "MCP-ALACRITTY",
+		"command":"uv",
+		"args": [
+			"--directory",
+			"../servers/MCP-ALACRITTY/mcp-alacritty",
+			"run",
+			"mcp-alacritty"
+		]
+	}
+]

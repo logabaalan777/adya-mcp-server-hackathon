@@ -1,0 +1,25 @@
+[project]
+name = "mcp-looker"
+version = "0.1.0"
+description = "MCP server for Looker data analytics platform"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "black>=25.1.0",
+    "httpx>=0.28.1",
+    "pandas>=2.0.0",
+    "numpy>=1.24.0",
+    "python-dateutil>=2.8.2",
+    "mcp>=1.0.0",
+    "panda>=0.3.1",
+]
+
+[build-system]
+requires = [ "hatchling",]
+build-backend = "hatchling.build"
+
+[project.scripts]
+mcp-looker = "mcp_looker.server:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/mcp_looker"]

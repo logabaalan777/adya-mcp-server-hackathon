@@ -1,0 +1,21 @@
+[project]
+name = "mcp-claude"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "google-generativeai>=0.8.5",
+    "mcp>=1.10.1",
+    "python-dotenv>=1.1.1",
+]
+
+[build-system]
+requires = [ "hatchling",]
+build-backend = "hatchling.build"
+
+[project.scripts]
+mcp-claude = "mcp_claude.server:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/mcp_claude"]
