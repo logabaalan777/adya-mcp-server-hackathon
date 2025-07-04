@@ -67,46 +67,6 @@ The MCP Platform enables AI assistants to interact with external services throug
 2. **Python**: Follow the [Python Setup](#python-setup) guide
 3. **Both**: Set up both implementations for maximum flexibility
 
-## 🟨 JavaScript Setup
-
-### 1. Navigate to JavaScript Directory
-
-```bash
-cd mcp_servers/js
-```
-
-### 2. Install Dependencies
-
-```bash
-npm install
-```
-
-### 3. Build All Components
-
-```bash
-npm run build:all
-```
-
-### 4. Start Development Server
-
-```bash
-npm run dev:client
-```
-
-### 5. Available Scripts
-
-- `npm run build:all` - Build all clients and servers
-- `npm run dev:client` - Run client in development mode
-- `npm run test` - Run test suite
-- `npm run lint` - Run linting checks
-
-### Configuration
-
-JavaScript configuration is managed in:
-```
-mcp_servers/js/clients/src/client_and_server_config.ts
-```
-
 ## 🐍 Python Setup
 
 ### 1. Navigate to Python Directory
@@ -178,7 +138,7 @@ Edit `mcp_servers/python/clients/src/client_and_server_config.py`:
 ServersConfig = [
     {
 		"server_name": "MCP-CLAUDE",
-		"command":"uv",
+		"command": "uv",
 		"args": [
 			"--directory",
 			"../servers/MCP-GSUITE/mcp-claude",
@@ -220,7 +180,7 @@ We welcome contributions! Please follow these steps:
 
 1. **Fork** the repository
 2. **Create** a feature branch (`git checkout -b feature/amazing-feature`)
-3. **Commit** your changes (`git commit -m 'Add amazing feature'`)
+3. **Commit** your changes (`git commit -m 'Add amazing feature`)
 4. **Push** to the branch (`git push origin feature/amazing-feature`)
 5. **Open** a Pull Request
 
