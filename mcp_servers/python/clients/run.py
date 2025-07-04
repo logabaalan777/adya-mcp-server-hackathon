@@ -290,11 +290,11 @@ if __name__ == "__main__":
     # Print welcome banner
     print("╔═══════════════════════════════════════════════════════════════════════════════════════════╗")
     print("║                                                                                           ║")
-    print("║                                📈🚀✨ ADYA  📈🚀✨                                        ║")
+    print("║                                📈🚀✨ ADYA  📈🚀✨                                     ║")
     print("║                                                                                           ║")
-    print("║  🎉 Welcome to the MCP(Model Context Protocol) Server Integration Hackathon 2k25 !! 🎉    ║")
+    print("║  🎉 Welcome to the MCP(Model Context Protocol) Server Integration Hackathon 2k25 !! 🎉   ║")
     print("║                                                                                           ║")
-    print("║  ✅ Server running on http://0.0.0.0:5001 ✅                                              ║")
+    print("║  ✅ Server running on http://0.0.0.0:5001 ✅                                             ║")
     print("║                                                                                           ║") 
     print("╚═══════════════════════════════════════════════════════════════════════════════════════════╝")
 
