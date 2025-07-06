@@ -5,7 +5,8 @@ ClientsConfig =[
 	"MCP_CLIENT_OPENSTREETMAP",
 	"MCP_CLIENT_JOOMLA",
 	"MCP_CLIENT_LOOKER",
-	"MCP_CLIENT_ALACRITTY"
+	"MCP_CLIENT_ALACRITTY",
+    "MCP_CLIENT_OMNISEARCH"
 ]
 
 ServersConfig = [
@@ -57,6 +58,16 @@ ServersConfig = [
 			"../servers/MCP-ALACRITTY/mcp-alacritty",
 			"run",
 			"mcp-alacritty"
+		]
+	},
+    {
+		"server_name":"MCP-OMNISEARCH",
+		"command":"uv",
+		"args": [
+			"--directory",
+			"../servers/MCP-OMNISEARCH/mcp-omnisearch",
+			"run",
+			"mcp-omnisearch"
 		]
 	}
 ]

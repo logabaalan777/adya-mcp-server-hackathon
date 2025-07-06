@@ -972,6 +972,15 @@ async def client_and_server_execution(payload: Dict[str, Any], streaming_callbac
             result.Data["messages"] = [tool_result]
             result.Status = True
             return result
+        
+        elif selected_client == "MCP_CLIENT_OMNISEARCH":    
+            tool_name = client_details.get("tool_name")
+            arguments = client_details.get("arguments", {})
+            tool_result = await call_and_execute_tool(selected_server, selected_server_credentials, tool_name, arguments)
+            result = ClientAndServerExecutionResponse()
+            result.Data["messages"] = [tool_result]
+            result.Status = True
+            return result
 
         result.Status = True
         return result
@@ -1049,6 +1058,9 @@ async def call_and_execute_tool(
             args["__credentials__"]   = creds
             args["server_credentials"] = creds
         case "MCP-ALACRITTY":
+            args["__credentials__"]   = creds
+            args["server_credentials"] = creds
+        case "MCP-OMNISEARCH":
             args["__credentials__"]   = creds
             args["server_credentials"] = creds
         case _:
