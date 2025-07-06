@@ -32,22 +32,21 @@ The MCP Platform enables AI assistants to interact with external services throug
 ```
 .
 ├── mcp_servers/
-│   └── python/                       # Python implementation
-│       ├── clients/                  # MCP clients
+│   └── python/                     # Python implementation
+│       ├── clients/                # MCP clients
 │       │   ├── src/
-│       │   │   ├── client_and_server_config.py       # Listed MCP Clients & Servers Configurations.
+│       │   │   ├── client_and_server_config.py    # Listed MCP Clients & Servers Configurations.
 │       │   │   └── ...
 │       │   ├── requirements.txt
 │       │   └── ...
-│       └── servers/                  # MCP servers
+│       └── servers/                # MCP servers
 │           ├── MCP-CLAUE/          # claude integration
-│           ├── MCP-JOOMLA/        # Joomla integration
-│           ├── MCP-ALACRITTY/    # alacritty integration
-│           ├── MCP-OMNISEARCH/        # looker integration
+│           ├── MCP-JOOMLA/         # Joomla integration
+│           ├── MCP-ALACRITTY/      # alacritty integration
+│           ├── MCP-OMNISEARCH/     # omnisearch integration
 │           ├── MCP-OPENSTREETMAP/  # openstreetmap integration
-│           └── etc ...
-├── mcp_servers_documentation/        # Detailed documentation of about MCP servers
-├── postman_api_collections/         # API testing collections
+├── mcp_servers_documentation/      # Detailed documentation of about MCP servers
+├── postman_api_collections/        # API testing collections
 └── README.md
 ```
 
@@ -55,16 +54,13 @@ The MCP Platform enables AI assistants to interact with external services throug
 
 ### Prerequisites
 
-- **Node.js**208+ (for JavaScript implementation)
 - **Python** 3.8+ (for Python implementation)
 - **npm** or **yarn** (for JavaScript dependencies)
 - **pip** (for Python dependencies)
 
-### Choose Your Implementation
+### Implementation
 
-1. **JavaScript**: Follow the [JavaScript Setup](#javascript-setup) guide
-2. **Python**: Follow the [Python Setup](#python-setup) guide
-3. **Both**: Set up both implementations for maximum flexibility
+1. **Python**: Follow the [Python Setup](#python-setup) guide
 
 ## 🐍 Python Setup
 
