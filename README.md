@@ -44,7 +44,7 @@ The MCP Platform enables AI assistants to interact with external services throug
 │           ├── MCP-CLAUE/          # claude integration
 │           ├── MCP-JOOMLA/        # Joomla integration
 │           ├── MCP-ALACRITTY/    # alacritty integration
-│           ├── MCP-LOOKER/        # looker integration
+│           ├── MCP-OMNISEARCH/        # looker integration
 │           ├── MCP-OPENSTREETMAP/  # openstreetmap integration
 │           └── etc ...
 ├── mcp_servers_documentation/        # Detailed documentation of about MCP servers
@@ -124,7 +124,7 @@ mcp_servers/python/clients/src/client_and_server_config.py
 | **Openstreetmap** | Explore the places | ✅ Active |
 | **Claude** | For the query with AI | ✅ Active |
 | **Alacritty** | Configurable terminal Emulator | ✅ Active |
-| **Looker** | Excellent Data visualization tool | ✅ Active |
+| **Omnisearch** | For searching and extracting from various tools | ✅ Active |
 
 ## ⚙️ Configuration
 
