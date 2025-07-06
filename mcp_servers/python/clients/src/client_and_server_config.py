@@ -4,7 +4,6 @@ ClientsConfig =[
 	"MCP_CLIENT_GEMINI",
 	"MCP_CLIENT_OPENSTREETMAP",
 	"MCP_CLIENT_JOOMLA",
-	"MCP_CLIENT_LOOKER",
 	"MCP_CLIENT_ALACRITTY",
     "MCP_CLIENT_OMNISEARCH"
 ]
@@ -38,16 +37,6 @@ ServersConfig = [
 			"../servers/MCP-JOOMLA/mcp-joomla",
 			"run",
 			"mcp-joomla"
-		]
-	},
-	{
-		"server_name": "MCP-LOOKER",
-		"command":"uv",
-		"args": [
-			"--directory",
-			"../servers/MCP-LOOKER/mcp-looker",
-			"run",
-			"mcp-looker"
 		]
 	},
 	{
