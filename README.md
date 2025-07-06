@@ -8,7 +8,6 @@ A comprehensive Model Context Protocol (MCP) platform providing standardized int
 - [Features](#features)
 - [Project Structure](#project-structure)
 - [Quick Start](#quick-start)
-- [JavaScript Setup](#javascript-setup)
 - [Python Setup](#python-setup)
 - [Sample MCP Servers](#sample-mcp-servers)
 - [Configuration](#configuration)
@@ -21,7 +20,7 @@ The MCP Platform enables AI assistants to interact with external services throug
 
 ## ✨ Features
 
-- **Multi-language Support**: JavaScript and Python implementations
+- **language Support**: Python implementations
 - **Extensible Architecture**: Easy to add new MCP servers
 - **Standardized Protocol**: Consistent interface across all integrations
 - **Production Ready**: Built with scalability and reliability in mind
