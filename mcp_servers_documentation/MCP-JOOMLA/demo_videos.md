@@ -7,7 +7,7 @@ This section explains how to set up the Joomla MCP Server, gather required crede
 ## 🎥 Demo Video
 
 **Joomla MCP server setup + API execution + fetching content from Joomla CMS**  
-📺 [Watch Here](#) *([Add your recorded video link](https://drive.google.com/file/d/1T4-CGetL0cXC0mkaBB0Unl-uiggTI7FH/view?usp=sharing))*
+📺 [Watch Here](#) *(https://drive.google.com/file/d/1T4-CGetL0cXC0mkaBB0Unl-uiggTI7FH/view?usp=sharing)*
 
 ---
 
