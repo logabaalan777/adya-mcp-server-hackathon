@@ -1,21 +1,32 @@
-# Joomla MCP Server Credentials
+# 🧩 Joomla MCP Server – Demos and Payload Examples
 
-## Overview
-This document provides instructions on structuring the credentials needed to connect the Joomla MCP Server in the Vanij Platform.
+This section explains how to set up the Joomla MCP Server, gather required credentials (if needed), and interact with it using the correct JSON payload.
 
 ---
 
-## Credential Format
+## 🎥 Demo Video
+
+**Joomla MCP server setup + API execution + fetching content from Joomla CMS**  
+📺 [Watch Here](#) *([Add your recorded video link](https://drive.google.com/file/d/1T4-CGetL0cXC0mkaBB0Unl-uiggTI7FH/view?usp=sharing))*
+
+---
+
+## 🎥 Credentials Gathering Video
+
+**Setting up Joomla locally (Docker or manual) + login credentials (username/password) if using live instance**  
+📺 [Watch Here](#) *(Add your recorded video link)*
+
+---
+
+## 🔐 Credential JSON Payload
+
+> This is the format used to send credentials from the MCP Client to the Joomla MCP Server.
+
 ```json
 {
   "JOOMLA": {
-    "site_url": "https://your-joomla-site.com",
-    "username": "your-joomla-username",
-    "password": "your-joomla-password-or-app-password"
+    "base_url": "http://your-joomla-site.com",
+    "username": "your-admin-username",
+    "password": "your-admin-password"
   }
 }
-```
-
-- The `site_url` should point to your Joomla website.
-- The `username` and `password` are required for authentication.
-- Use an application password if your Joomla site supports it for better security.
