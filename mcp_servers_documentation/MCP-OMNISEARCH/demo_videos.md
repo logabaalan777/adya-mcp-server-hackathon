@@ -61,13 +61,3 @@ This document contains demo video links and descriptions for using the **MCP-OMN
 - 📌 *Demonstrates how to get access (if available) and run AI-powered Q&A through Perplexity.*
 
 ---
-
-## 📝 Notes
-
-- If any provider doesn’t have public API key access, mention it in the video (e.g. “currently in beta”, “invite-only”, etc.).
-- Record 2 videos per tool:
-  - **1️⃣ Credential setup** (sign up, dashboard, key copy)
-  - **2️⃣ Usage inside MCP-OMNISEARCH**
-- Keep video lengths between **1–3 minutes** for clarity.
-
----
