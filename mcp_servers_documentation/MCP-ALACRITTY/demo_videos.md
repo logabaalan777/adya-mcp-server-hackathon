@@ -1,7 +1,7 @@
 # Alacritty MCP Server – Demos and Payload Examples
 
 ## 🎥 Demo Video
-- **MCP server setup explanation + API Execution + Features Testing**: [Watch Here](https://your-demo-video-link.com)
+- **MCP server setup explanation + API Execution + Features Testing**: [Watch Here](https://drive.google.com/file/d/1siQDmfRKJB_J6PN2wE9_EYFWpw3isnmI/view?usp=drive_link)
 
 ---
 
