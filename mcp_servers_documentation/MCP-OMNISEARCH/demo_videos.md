@@ -2,7 +2,7 @@
 
 This document contains demo video links and descriptions for using the **MCP-OMNISEARCH** server, including:
 
-- 🔑 How to get API credentials (API keys) for each tool
+- 🔑 How to get API credentials (API keys) for each tool *(see separate section below)*
 - 🧪 How to use each tool inside MCP-OMNISEARCH (search, crawl, extract, generate)
 
 ---
@@ -18,46 +18,34 @@ This document contains demo video links and descriptions for using the **MCP-OMN
 
 ---
 
-## 🔐 API Key Setup Demos
+## 🎬 Combined Usage Demo Videos (All Tools)
 
-### 🛡️ Brave Search – API Key & Search Demo
+> Watch to use each tool after setting up the API credentials.
+
+- **Omni-Search Usage Demo** – [https://drive.google.com/file/d/1YWemT7pTjIZRF4GOOxJSMGTigQ6Zf2p3/view?usp=drive_link]  
+
+---
+
+## 🔐 API Key Setup Demos (Credential Setup Only)
+
+> Follow these videos to sign up and get API keys for each external tool used in MCP-OMNISEARCH.
+
+### 🛡️ Brave Search
 - **API Key Setup:** https://drive.google.com/file/d/1CF2izUtDCnXlethpjEvQyoyTriMF9a3y/view?usp=drive_link
-- **Usage Demo:** [▶️ Add Brave search usage demo link here]  
-- 📌 *Learn how to create a Brave developer account, get your API key, and perform technical queries using Brave Search.*
 
----
-
-### 🌐 Tavily – API Key & Search Demo
+### 🌐 Tavily
 - **API Key Setup:** https://drive.google.com/file/d/1GeM5EmcjRWPGKarR67xEIxIPwjq2U-8u/view?usp=sharing
-- **Usage Demo:** [▶️ Add Tavily search usage demo link here]  
-- 📌 *Demonstrates how to sign up for Tavily, get your API key, and use domain-specific search.*
 
----
-
-### 📖 Jina Reader – API Key & URL Extract Demo
+### 📖 Jina Reader & 🧠 Jina Grounding
 - **API Key Setup:** https://drive.google.com/file/d/1bDA8vqRG_UVgvjzIAB8EbIVNbwoBdgmm/view?usp=sharing
-- **Usage Demo:** [▶️ Add Jina Reader demo link here]  
-- 📌 *Shows how to obtain Jina AI credentials and extract clean text content from a web URL.*
 
----
-
-### 🧠 Jina Grounding – API Key & Content Enrichment Demo
-- **API Key Setup:** https://drive.google.com/file/d/1bDA8vqRG_UVgvjzIAB8EbIVNbwoBdgmm/view?usp=sharing
-- **Usage Demo:** [▶️ Add Jina Grounding demo link here]  
-- 📌 *Use Jina’s grounding tool to enrich raw text with deeper semantic context.*
-
----
-
-### 🕷️ Firecrawl – API Key & Full Scrape Demo
+### 🕷️ Firecrawl
 - **API Key Setup:** https://drive.google.com/file/d/1z2YN7SZNI5QK894r2Qmd_057naiZYcUX/view?usp=sharing
-- **Usage Demo:** [▶️ Add Firecrawl usage demo link here]  
-- 📌 *Covers Firecrawl signup, key generation, and dynamic content scraping including crawl/extract/actions.*
 
----
-
-### 🤖 Perplexity – API Key & AI Query Demo
+### 🤖 Perplexity
 - **API Key Setup:** https://drive.google.com/file/d/1NPA0pCMhmRH3RuznecblmoZVMCgM6oSz/view?usp=sharing
-- **Usage Demo:** [▶️ Add Perplexity demo link here]  
-- 📌 *Demonstrates how to get access (if available) and run AI-powered Q&A through Perplexity.*
 
 ---
+
+📌 *Once you’ve completed the API key setup for a tool, head to the corresponding demo video above to learn how to use it within MCP-OMNISEARCH.*
+
