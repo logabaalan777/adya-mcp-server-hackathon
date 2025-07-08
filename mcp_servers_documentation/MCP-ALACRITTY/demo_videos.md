@@ -6,7 +6,7 @@
 ---
 
 ## 🎥 Config File Setup Video
-- **Setting up and providing Alacritty config file (YAML/TOML) – Full walkthrough**: [Watch Here](https://your-demo-video-link.com)
+- **Setting up and providing Alacritty config file (YAML/TOML) – Full walkthrough**: [Watch Here](https://drive.google.com/file/d/1x7mAdaHI-9VzTBHIgEHC-P9H3yymOQV7/view?usp=drive_link)
 
 ---
 
@@ -15,7 +15,7 @@ Example payload format for sending credentials to the MCP Server which will be u
 ```json
 {
   "ALACRITTY": {
-    "config_path": "/path/to/alacritty.yml"
+    "config_path": "C:\Users\USER\AppData\Roaming\alacritty\alacritty.toml"
   }
 }
 ```
