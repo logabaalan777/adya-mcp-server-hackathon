@@ -14,8 +14,10 @@ This section explains how to set up the Joomla MCP Server, gather required crede
 ## 🎥 Credentials Gathering Video
 
 **Setting up Joomla locally (Docker or manual) + login credentials (username/password) if using live instance**  
-📺 [Watch Here](https://drive.google.com/file/d/1T4-CGetL0cXC0mkaBB0Unl-uiggTI7FH/view?usp=sharing) *(Add your recorded video link)*
-**From Scratch API Collection**  [Watch Here](https://drive.google.com/file/d/1zatpGbwal6pgRHXa5Au2ZImqAXrozqBY/view?usp=sharing)
+📺 **1** [Watch Here](https://drive.google.com/file/d/1T4-CGetL0cXC0mkaBB0Unl-uiggTI7FH/view?usp=sharing) 
+
+
+**From Scratch API Collection**  **2** [Watch Here](https://drive.google.com/file/d/1zatpGbwal6pgRHXa5Au2ZImqAXrozqBY/view?usp=sharing)
 
 ---
 
